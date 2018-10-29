@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="2dp"
+    tools:context=".activity2">
+
+    <TextView
+        android:id="@+id/year_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/textview"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/branch_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/year_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/Course1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/branch_txt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course1"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course4"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course6"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course5"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course7"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course6"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course8"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course7"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <TextView
+        android:id="@+id/Course9"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course8"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+    <TextView
+        android:id="@+id/Course10"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Course10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/Grade"
+        android:prompt="@string/spinner_title4" />
+
+    <Button
+        android:id="@+id/Calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/button_layout"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:text="Calculate" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/year_txt"
+        android:layout_marginEnd="-36dp"
+        android:layout_toStartOf="@+id/Course1"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        android:layout_toLeftOf="@+id/Course1"
+        tools:ignore="RtlCompat,VectorDrawableCompat" />
+
+</RelativeLayout>
+</ScrollView>

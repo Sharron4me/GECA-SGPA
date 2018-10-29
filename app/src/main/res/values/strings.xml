@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GECA SGPA CALCULATOR</string>
+    <string name="spinner_title">Choose Your Year</string>
+    <string-array name="Year_name">
+        <item>Choose Your Year</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+    <string name="textview">TextView</string>
+    <string name="spinner_title2">Choose Your Branch</string>
+    <string name="Next">Go</string>
+    <string name="welcome_to_geca_sgpa">Welcome To GECA SGPA</string>
+    <string-array name="Branch_name">
+        <item>Choose Your Branch</item>
+        <item>Computer Science Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Information Technology</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics &amp; Telecommunication Engineering</item>
+    </string-array>
+    <string name="spinner_title3">Choose Your Year</string>
+    <string-array name="Sem_name">
+        <item>Choose Your Semester</item>
+        <item>Odd Semester</item>
+        <item>Even Semester</item>
+    </string-array>
+    <string name="spinner_title4">Choose Your Grade</string>
+    <string-array name="Grade">
+        <item>A++</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D</item>
+        <item>D1</item>
+        <item>D2</item>
+        <item>D3</item>
+    </string-array>
+</resources>

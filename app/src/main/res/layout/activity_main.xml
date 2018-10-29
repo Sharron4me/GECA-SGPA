@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_to_geca_sgpa"
+        android:textSize="30sp"
+        android:theme="@style/Base.V7.Theme.AppCompat.Light.Dialog"
+        app:fontFamily="sans-serif-condensed"
+        tools:textColor="@android:color/holo_red_dark" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@id/title"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorBackgroundFloating"
+        android:clipToPadding="true"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/Year_name"
+        android:prompt="@string/spinner_title"
+        android:theme="@style/Animation.AppCompat.DropDownUp"
+ />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_below="@id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:padding="10dp"
+        android:clipToPadding="true"
+        android:entries="@array/Branch_name"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/spinner_title2"
+        android:theme="@style/Animation.AppCompat.DropDownUp" />
+    <Spinner
+        android:id="@+id/spinner3"
+        android:padding="10dp"
+        android:layout_below="@id/spinner2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:clipToPadding="true"
+        android:entries="@array/Sem_name"
+        android:layout_centerHorizontal="true"
+        android:prompt="@string/spinner_title3"
+        android:theme="@style/Animation.AppCompat.DropDownUp" />
+
+    <Button
+        android:id="@+id/Go_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner3"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/Next"
+        android:theme="@style/Base.TextAppearance.AppCompat.Subhead.Inverse" />
+
+
+</RelativeLayout>
+</ScrollView>
