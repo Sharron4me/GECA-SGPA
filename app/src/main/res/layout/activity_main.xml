@@ -84,6 +84,24 @@
         android:text="@string/Next"
         android:theme="@style/Base.TextAppearance.AppCompat.Subhead.Inverse" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Go_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Made With Love And Coffee By"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        android:text="Mohammad Ummair"
+        android:textSize="18dp" />
+
 
 </RelativeLayout>
 </ScrollView>
