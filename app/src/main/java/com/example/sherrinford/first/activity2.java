@@ -50,25 +50,6 @@ public class activity2 extends AppCompatActivity {
         int sem_index=bundle.getInt("sem_index");
         Log.d("SEm INDEX", String.valueOf(sem_index));
         Log.d("Pressed",index + "  "+yr_index);
-        if(yr_index==-1){
-            Toast Error_toast = Toast.makeText(getApplicationContext(),"Invalid Year Type",Toast.LENGTH_SHORT);
-            Error_toast.show();
-            Intent inte= new Intent(activity2.this,MainActivity.class);
-            startActivity(inte);
-        }
-
-        else if(index==-1){
-            Toast Error_toast = Toast.makeText(getApplicationContext(),"Invalid Stream",Toast.LENGTH_SHORT);
-            Error_toast.show();
-            Intent inte= new Intent(activity2.this,MainActivity.class);
-            startActivity(inte);
-        }
-        else if(sem_index==-1){
-            Toast Error_toast = Toast.makeText(getApplicationContext(),"Invalid Semester Name",Toast.LENGTH_SHORT);
-            Error_toast.show();
-            Intent inte= new Intent(activity2.this,MainActivity.class);
-            startActivity(inte);
-        }
         if(yr_index==1) {
             if (sem_index == 1) {
                 if (index == 1 || index == 3 || index == 6) {
