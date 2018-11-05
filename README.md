@@ -7,4 +7,4 @@ Download Now
 
 Download Apk:
 -----
->https://sourceforge.net/projects/geca-sgpa/files/GECA-SGPA.apk/download
+>https://sourceforge.net/projects/geca-sgpa/files/GECA-SGPA-1.2.apk/download
