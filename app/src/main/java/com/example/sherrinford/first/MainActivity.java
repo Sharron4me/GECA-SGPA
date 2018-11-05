@@ -1,6 +1,8 @@
 package com.example.sherrinford.first;
 
 import android.content.Intent;
+import android.os.Build;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,7 +12,10 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import static android.app.PendingIntent.getActivity;
+
 public class MainActivity extends AppCompatActivity {
+    boolean doubleBackToExitPressedOnce = false;
     Button Go_button;
     Spinner spinner1,spinner2,spinner3;
     @Override
@@ -115,5 +120,28 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+    }
+    @Override
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                finishAffinity();
+            }
+            System.exit(0);
+            return;
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
 }
