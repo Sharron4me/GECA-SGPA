@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sherrinford.gecasgpa">
+    package="com.example.sherrinford.first">
 
     <application
         android:allowBackup="true"
@@ -8,6 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -16,10 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity2"
-            android:label="@string/title_activity_activity2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity2" />
+        <activity android:name=".activity3" />
+        <activity android:name=".activity4"></activity>
     </application>
 
 </manifest>

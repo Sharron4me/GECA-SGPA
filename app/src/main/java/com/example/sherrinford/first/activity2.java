@@ -21,7 +21,7 @@ import static java.util.logging.Logger.global;
 
 public class activity2 extends AppCompatActivity {
     int k = 10;
-    int[] credits = new int[10];
+    int[] credits = new int[12];
     int total_credits = 0;
     ImageView arrow;
     Button go;
@@ -134,10 +134,9 @@ public class activity2 extends AppCompatActivity {
                     txtView21.setText("LAB-Workshop-I");
                     credits[8] = 1;
                     total_credits += 1;
-                    TextView txtView22 = (TextView) findViewById(R.id.Course10);
-                    txtView22.setVisibility(View.INVISIBLE);
-                    Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
-                    sp22.setVisibility(View.INVISIBLE);
+                    TextView txtView22 = (TextView) findViewById(R.id.Course11);
+                    credits[9]=0;
+                    total_credits+=0;
                     k = 9;
 
                 }
@@ -179,10 +178,9 @@ public class activity2 extends AppCompatActivity {
                     txtView21.setText("LAB-Workshop-I");
                     credits[8] = 1;
                     total_credits += 1;
-                    TextView txtView22 = (TextView) findViewById(R.id.Course10);
-                    txtView22.setVisibility(View.INVISIBLE);
-                    Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
-                    sp22.setVisibility(View.INVISIBLE);
+                    TextView txtView22 = (TextView) findViewById(R.id.Course11);
+                    credits[9]=0;
+                    total_credits+=0;
                     k = 9;
                 } else if (index == 2 || index == 4 || index == 5) {
                     TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -225,6 +223,9 @@ public class activity2 extends AppCompatActivity {
                     txtView22.setText("LAB-Workshop-I");
                     credits[9] = 1;
                     total_credits += 1;
+                    TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                    credits[10] = 0;
+                    total_credits += 0;
                     k = 10;
                 }
             }
@@ -272,6 +273,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Psycology");
                         credits[9] = 2;
                         total_credits += 2;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -310,10 +314,9 @@ public class activity2 extends AppCompatActivity {
                         txtView21.setText("Lab Java Programming");
                         credits[8] = 4;
                         total_credits += 4;
-                        TextView txtView22 = (TextView) findViewById(R.id.Course10);
-                        txtView22.setVisibility(View.INVISIBLE);
-                        Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
-                        sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView22 = (TextView) findViewById(R.id.Course11);
+                        credits[9]=0;
+                        total_credits+=0;
                         k = 9;
 
                     }
@@ -356,10 +359,9 @@ public class activity2 extends AppCompatActivity {
                         txtView21.setText("Psycology");
                         credits[8] = 2;
                         total_credits += 2;
-                        TextView txtView22 = (TextView) findViewById(R.id.Course10);
-                        txtView22.setVisibility(View.INVISIBLE);
-                        Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
-                        sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView22 = (TextView) findViewById(R.id.Course11);
+                        credits[9] = 0;
+                        total_credits += 0;
                         k = 9;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -398,10 +400,9 @@ public class activity2 extends AppCompatActivity {
                         txtView21.setText("Lab-Open Elective-I");
                         credits[8] = 1;
                         total_credits += 1;
-                        TextView txtView22 = (TextView) findViewById(R.id.Course10);
-                        txtView22.setVisibility(View.INVISIBLE);
-                        Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
-                        sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView22 = (TextView) findViewById(R.id.Course11);
+                        credits[9] = 0;
+                        total_credits += 0;
                         k = 9;
 
                     }
@@ -448,6 +449,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Psycology");
                         credits[9] = 2;
                         total_credits += 2;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 1;
+                        total_credits += 1;
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -490,6 +494,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Lab: Software Development Lab-II ");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
 
                     }
@@ -536,6 +543,10 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Lab-Workshop III");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
+
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -578,6 +589,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Lab-CAME I");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
 
                     }
@@ -624,6 +638,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Psycology");
                         credits[9] = 2;
                         total_credits += 2;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -666,6 +683,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
 
                     }
@@ -712,6 +732,10 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Psycology");
                         credits[9] = 2;
                         total_credits += 2;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
+
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -754,6 +778,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
 
                     }
@@ -803,6 +830,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -845,6 +875,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Seminar");
                         credits[8] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     }
                     break;
@@ -890,6 +923,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -932,6 +968,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     }
                     break;
@@ -977,6 +1016,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Lab:Open Source-I");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -1019,6 +1061,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     }
                     break;
@@ -1064,9 +1109,12 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Industrial Organisation And Management");
                         credits[9] = 3;
                         total_credits += 3;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     } else {
-                        /*TextView txtView13 = (TextView) findViewById(R.id.Course1);
+                        TextView txtView13 = (TextView) findViewById(R.id.Course1);
                         txtView13.setText("Bussiness Intelligence");
                         credits[0]=2;
                         total_credits+=2;
@@ -1106,8 +1154,10 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22=(Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k=9;
-                        */
                         Intent intent2 = new Intent(activity2.this, activity4.class);
                         startActivity(intent2);
                     }
@@ -1155,6 +1205,9 @@ public class activity2 extends AppCompatActivity {
                         credits[9] = 1;
                         total_credits += 1;
                         k = 10;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
                         txtView13.setText("Open Elective I");
@@ -1196,11 +1249,14 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     }
                 case 6:
                     if (sem_index == 1) {
-                        /*
+
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
                         txtView13.setText("Digital Communication");
                         credits[0]=3;
@@ -1241,10 +1297,11 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Lab-Control System");
                         credits[9]=1;
                         total_credits+=1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
+
                         k=10;
-                        */
-                        Intent intent2 = new Intent(activity2.this, activity4.class);
-                        startActivity(intent2);
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
                         txtView13.setText("Digital Signal Processing");
@@ -1286,6 +1343,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("e-skill workshop");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 10;
                     }
             }
@@ -1361,6 +1421,10 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setText("Seminar");
                         credits[9] = 1;
                         total_credits += 1;
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
+
                         k = 10;
                     } else {
                         TextView txtView13 = (TextView) findViewById(R.id.Course1);
@@ -1403,6 +1467,9 @@ public class activity2 extends AppCompatActivity {
                         txtView22.setVisibility(View.INVISIBLE);
                         Spinner sp22 = (Spinner) findViewById(R.id.spinner10);
                         sp22.setVisibility(View.INVISIBLE);
+                        TextView txtView23 = (TextView) findViewById(R.id.Course11);
+                        credits[10] = 0;
+                        total_credits += 0;
                         k = 9;
                     }
                     break;
@@ -1460,7 +1527,9 @@ public class activity2 extends AppCompatActivity {
                 Spinner spinner8 = (Spinner) findViewById(R.id.spinner8);
                 Spinner spinner9 = (Spinner) findViewById(R.id.spinner9);
                 Spinner spinner10 = (Spinner) findViewById(R.id.spinner10);
-                String[] text = new String[10];
+                Spinner spinner12 = (Spinner) findViewById(R.id.spinner11);
+                Spinner spinner11 = (Spinner) findViewById(R.id.spinner12);
+                String[] text = new String[12];
                 text[0] = spinner1.getSelectedItem().toString();
                 text[1] = spinner2.getSelectedItem().toString();
                 text[2] = spinner3.getSelectedItem().toString();
@@ -1470,10 +1539,36 @@ public class activity2 extends AppCompatActivity {
                 text[6] = spinner7.getSelectedItem().toString();
                 text[7] = spinner8.getSelectedItem().toString();
                 text[8] = spinner9.getSelectedItem().toString();
+                Log.d("Worked","Here");
                 if (k == 10) {
                     text[9] = spinner10.getSelectedItem().toString();
+                    text[10]= spinner11.getSelectedItem().toString();
+                    text[11]= spinner12.getSelectedItem().toString();
+                    if(!text[11].equals("0")){
+                        k=11;
+                        credits[10]= Integer.valueOf(text[11]);
+                        total_credits+=credits[10];
+                        Log.d("Value_k",String.valueOf(k));
+                        Log.d("Value_c",String.valueOf(credits[10]));
+                        Log.d("Value_G",text[10]);
+                    }
                 }
+                else {
+                    text[10]= spinner11.getSelectedItem().toString();
+                    text[11]= spinner12.getSelectedItem().toString();
+                    if(!text[11].equals("0")){
+                        k=10;
+                        credits[9]= Integer.valueOf(text[11]);
+                        total_credits+=credits[9];
+                        text[9]=spinner12.getSelectedItem().toString();
+                        Log.d("Value_k",String.valueOf(k));
+                        Log.d("Value_c",String.valueOf(credits[9]));
+                        Log.d("Value_G",text[9]);
+                    }
+                }
+                Log.d("Worked111","Here");
                 int[] score = new int[k];
+                total_credits=0;
                 int sum = 0;
                 for (int i = 0; i < k; i++) {
                     if (text[i].equals("A++")) {
@@ -1493,10 +1588,14 @@ public class activity2 extends AppCompatActivity {
                     } else {
                         score[i] = 0;
                     }
+                    Log.d("text",text[i]);
+                    Log.d("score", String.valueOf(score[i]));
+                    Log.d("credits", String.valueOf(credits[i]));
                     sum += (score[i] * credits[i]);
+                    total_credits+=credits[i];
                 }
                 float result_score = sum;
-                Log.d("result::", sum + "  " + total_credits);
+                Log.d("result", sum + "  " + total_credits);
                 result_score = result_score / (float) total_credits;
                 Log.d("Resulting answer", String.valueOf(result_score));
                 Intent intent1 = new Intent(activity2.this, activity3.class);

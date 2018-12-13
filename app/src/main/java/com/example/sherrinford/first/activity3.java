@@ -2,9 +2,9 @@ package com.example.sherrinford.first;
 
 import android.content.Intent;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -22,7 +22,6 @@ public class activity3 extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_activity3);
-
         arrow1 = (ImageView) findViewById(R.id.arrow1);
         arrow1.setOnClickListener(new View.OnClickListener() {
             @Override
