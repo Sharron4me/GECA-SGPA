@@ -8,3 +8,6 @@ Download Now
 Download Apk:
 -----
 >https://sourceforge.net/projects/geca-sgpa/files/GECA-SGPAV1.3.apk/download
+
+## Screenshot:
+![alt image](https://i.imgur.com/J9qx1PG.jpg)
