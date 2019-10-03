@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
+		// commented just for fun
         if (doubleBackToExitPressedOnce) {
             super.onBackPressed();
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
