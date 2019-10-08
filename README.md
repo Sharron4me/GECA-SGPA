@@ -1,5 +1,9 @@
 # GECA-SGPA
 This is a Simple SGPA calculation application.
+
+USES The grading system written behind the marksheets of GECA 
+Subjects may vary as per the sem and year.
+
 ##### Made For android 4.0 and Above
 Download Now 
 -----
